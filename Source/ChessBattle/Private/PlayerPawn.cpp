@@ -42,7 +42,7 @@ void APlayerPawn::DistributeCards(TArray<USceneComponent*> Hand, USceneComponent
 
 	bool bCardCountInHandIsEven = CardCount % 2 == 0;
 
-	for (double Index = 0.0; Index != CardCount; ++Index)
+	for (int32 Index = 0; Index != CardCount; ++Index)
 	{
 		// If there's more than one card in-hand
 		if (CardCount > 1)
