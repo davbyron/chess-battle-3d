@@ -21,7 +21,7 @@ protected:
 	virtual void BeginPlay() override;
 
 	UFUNCTION(BlueprintCallable)
-	void DistributeCards(TArray<USceneComponent*> Hand, USceneComponent* NewCard);
+	void DistributeCards(const TArray<USceneComponent*> Hand, const USceneComponent* NewCard);
 
 public:	
 	// Called every frame

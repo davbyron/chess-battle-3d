@@ -33,7 +33,7 @@ void APlayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 }
 
-void APlayerPawn::DistributeCards(TArray<USceneComponent*> Hand, USceneComponent* NewCard)
+void APlayerPawn::DistributeCards(const TArray<USceneComponent*> Hand, const USceneComponent* NewCard)
 {
 	float OffsetYPerCard = 20.0;
 	float RotateXPerCard = 5.0;
